@@ -1,6 +1,11 @@
 ## Internet speed continuous monitor
 Simple NodeJS script for continuous monitoring of internet connection
 
+Installation
+```bash
+npm install --global internet-speed-continuous-monitor
+```
+
 Usage
 
 ```bash
