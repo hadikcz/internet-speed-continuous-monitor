@@ -1,7 +1,16 @@
 {
-  "name": "internetspeedcontinousmonitor",
-  "version": "0.0.0",
-  "private": true,
+  "name": "internet-speed-continuous-monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hadikcz/internet-speed-continuous-monitor.git"
+  },
+  "bin": {
+    "internet-speed-test": "index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },

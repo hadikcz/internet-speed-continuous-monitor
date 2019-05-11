@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var speedTest = require('speedtest-net');
 var fs  = require('fs');
 
