@@ -12,6 +12,7 @@ setInterval(function() {
 }, testInterval * 1000);
 
 function testSpeed () {
+    console.info('Test in progress');
     var test = speedTest({maxTime: 5000});
 
     test.on('data', data => {
