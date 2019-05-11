@@ -1,7 +1,7 @@
 var speedTest = require('speedtest-net');
 var fs  = require('fs');
 
-var testInterval = process.argv[2] ? process.argv[2] : 30;
+var testInterval = process.argv[2] ? process.argv[2] : 60;
 var outputFile = process.argv[3] ? process.argv[3] : 'speeds.csv';
 
 console.info('Starting monitoring internet speed');
