@@ -17,7 +17,6 @@ function testSpeed () {
 
     test.on('data', data => {
         var line = Math.round((Date.now() / 1000)) + ';';
-        console.log('-----');
         console.log('Test ended: ');
         if (data !== undefined && data.speeds !== undefined) {
             if(data.speeds.download !== undefined) {
@@ -40,6 +39,7 @@ function testSpeed () {
             console.log('Failed test');
             line += 'n/a;n/a;'
         }
+        console.log('-----');
         line += '\r\n';
         fs.appendFile(outputFile, line, 'utf8', (err) => {if(err) console.error(err)});
     });
