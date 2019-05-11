@@ -16,3 +16,8 @@ for specify output file
 ```bash
 internet-speed-test 120 'result-speeds.csv'
 ```
+
+alternative
+```bash
+node index.js 120 'result-speeds.csv'
+```
