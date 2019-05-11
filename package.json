@@ -1,0 +1,11 @@
+{
+  "name": "internetspeedcontinousmonitor",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "speedtest-net": "^1.5.1"
+  }
+}
