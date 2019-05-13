@@ -15,6 +15,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "speedtest-net": "^1.5.1"
   }
 }
