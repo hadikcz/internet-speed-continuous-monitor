@@ -12,6 +12,7 @@ var lineReader = require('readline').createInterface({
 
 try {
     fs.unlinkSync(outputFile);
+    fs.writeFileSync(outputFile, 'Date,Download (Mbit/s),Upload (Mbit/s)' + os.EOL);
 } catch(e) {}
 
 lineReader.on('line', function (line) {
@@ -27,7 +28,7 @@ lineReader.on('line', function (line) {
 
 
 function convertDate(timestamp) {
-    return moment.unix(timestamp).format("DD-MM-YYYY HH:mm:ss");
+    return moment.unix(timestamp).format("DD/MM/YYYY HH:mm:ss");
 }
 
 /**
